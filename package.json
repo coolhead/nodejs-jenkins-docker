@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm install inherits && mocha"
+  },
+  "engines": {
+    "node": "^8.8.6"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "inherits": "^2.0.4",
+    "mocha": "^9.2.0",
+    "ms": "^2.1.3"
+  }
+}
